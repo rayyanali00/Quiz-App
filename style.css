@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1581120083654-150513117cbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    margin: 0px auto;
+    width: 50% !important;
+    height: 415px;
+    margin-top: 10%;
+    /* background-color: #2C3A47; */
+    color: black;
+}
+.card-title{
+    border-bottom: 3px solid black;
+    height: 60px;
+}
+.next{
+    margin: 0px auto;
+    height: 40px;
+}
+#list{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+#question{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.options{
+    margin-top: 10px;
+    cursor: pointer;
+    list-style: square
+}
+.active{
+    background-color: #44bd32;
+    color: white;
+    width: 100%;
+    transition: all .5s;
+    padding: 10px;
+}
+.btn-container{
+    border-top: 2px solid black;
+    
+}
+@media (max-width: 1200px){
+    body{
+        padding-bottom: 20px;
+    }
+    .card{
+        height: 490px;
+        width: 80% !important;
+    }
+    #nextQue{
+        margin-top: 5px;
+    }
+}
